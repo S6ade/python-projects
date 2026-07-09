@@ -17,6 +17,21 @@
 
 - Python 3.14
 - Стандартные библиотеки: `sys`, `random`, `string`, `datetime`
+- Docker
+- FastAPI + Uvicorn
+- Swagger (автодокументация)
+- 
+## Структура репозитория
+
+├── log_parser.py          # Парсер логов Nginx
+├── pass_gen.py            # Генератор паролей
+├── todo.py                # To-Do в терминале
+├── rock_paper_scissors.py # Игра камень-ножницы-бумага
+├── calculate.py           # Калькулятор расходов
+├── api.py                 # FastAPI для портфолио
+├── Dockerfile             # Docker-образ для FastAPI
+├── requirements.txt       # Зависимости (будет позже)
+└── README.md
 
 ## Автор
 
