@@ -22,7 +22,7 @@
 - Swagger (автодокументация)
 - 
 ## Структура репозитория
-
+```
 ├── log_parser.py          # Парсер логов Nginx
 ├── pass_gen.py            # Генератор паролей
 ├── todo.py                # To-Do в терминале
@@ -32,7 +32,7 @@
 ├── Dockerfile             # Docker-образ для FastAPI
 ├── requirements.txt       # Зависимости (будет позже)
 └── README.md
-
+```
 ## Автор
 
 s6ade
