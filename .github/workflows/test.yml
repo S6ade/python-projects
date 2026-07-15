@@ -17,5 +17,4 @@ jobs:
       - name: Run Python scripts
         run: |
                python3 pass_gen.py
-               python3 calculate.py
                python3 subnet_calc.py 192.168.1.15/24
