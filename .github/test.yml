@@ -1,0 +1,22 @@
+on:
+  push:
+    branches: [master]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Run Python scripts
+        run: |
+              python3 pass_gen.py
+              python3 todo.py
+              python3 rock_paper_scissors.py
+              python3 calculate.py
